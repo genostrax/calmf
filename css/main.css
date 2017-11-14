@@ -10,6 +10,7 @@
   @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
   @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
   @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+  @import url('https://fonts.googleapis.com/css?family=Righteous');
 
   body {
     background: #fff;
@@ -52,13 +53,15 @@
     list-style: none;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
   }
 
   h1{
-    color: #686868;
+    color: #ffffff;
+    font-family: 'Righteous', 'Cursive';
+    font-weight: 300;
   }
 
   h2{
@@ -537,7 +540,7 @@ ul.sub-menu {
 *******Home Page******
 **************************/
 #home-slider {
-  background: url(../images/home/slider-bg.png) 0 100% repeat-x;
+  background: #5cb85c 0 100% repeat-x;
   position: relative;
 }
 
@@ -617,6 +620,7 @@ ul.sub-menu {
 #home-slider h1{
   margin-top: 100px;
   margin-bottom: 25px;
+  font-size: 47px;
 }
 
 #home-slider .btn-common {
