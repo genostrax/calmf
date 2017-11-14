@@ -11,6 +11,7 @@
   @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
   @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
   @import url('https://fonts.googleapis.com/css?family=Righteous');
+  @import url('https://fonts.googleapis.com/css?family=Raleway');
 
   body {
     background: #fff;
@@ -92,6 +93,20 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     padding: 10px 25px;
+  }
+
+  #home-slider .btn-common {
+    color: #ecf0f1;
+    border: 1px solid #ecf0f1;
+  }
+
+  #home-slider .btn-common:hover,
+  #home-slider .btn-common:focus{
+    outline: none;
+    background: none;
+    box-shadow: none;
+    color: #f1c40f;
+    border-color: #f1c40f;
   }
 
   #action .col-sm-5{
@@ -621,6 +636,12 @@ ul.sub-menu {
   margin-top: 100px;
   margin-bottom: 25px;
   font-size: 47px;
+}
+
+#home-slider p{
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
 }
 
 #home-slider .btn-common {
